@@ -183,6 +183,33 @@
     align-items: center;
 }
 
+.footer{
+    background: #A5A5A5;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topics{
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-gap: 2px;
+    background: #C3C3C3;
+    width: 90%;
+    height: 100px
+
+    
+}
+.topic{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+    
+
 
 
 
